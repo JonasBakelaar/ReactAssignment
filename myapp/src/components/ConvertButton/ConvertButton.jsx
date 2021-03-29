@@ -2,8 +2,7 @@ import React from "react";
 import Box from '@material-ui/core/Box';
 import "./ConvertButton.css";
 
-// This class creates a card with text on it that can either bring user to the main
-// page or you can pass in a function that will run when the user clicks on it
+// This generates a button with a specific style used on the ConvertUnitsPage
 
 const ConvertButton = ({
   onClick = () => {},

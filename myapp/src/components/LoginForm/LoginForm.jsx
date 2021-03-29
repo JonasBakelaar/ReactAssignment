@@ -16,8 +16,7 @@ import { Link } from "react-router-dom";
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
-// This class creates the Header on the actual conversion page
-
+// This creates and handles the login form
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -92,7 +91,7 @@ const LoginForm = ({ title }) => {
               }
               labelWidth={70}
             />
-          </FormControl>
+          </FormControl><br />
           <Link to={{
               pathname:"/convert-units",
               state: {
