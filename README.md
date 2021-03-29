@@ -9,8 +9,8 @@ Desktop application built with __Electron__, __React__ and __MaterialUI__ compon
 2. Create Electron App executable using React app
 
 ## React Dependencies/Modules
-* react-router-dom
-* electron
+Included in package.json, to install before running the app run this command in the myapp folder:
+* npm install
 
 ## To Start Electron App
 To start the electron app, cd into myapp and run the following commands
