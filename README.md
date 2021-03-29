@@ -7,3 +7,6 @@ Desktop application built with __Electron__, __React__ and __MaterialUI__ compon
 ## Breakdown of tasks
 1. Write initial React app
 2. Create Electron App executable using React app
+
+## React Dependencies/Modules
+* react-router-dom
