@@ -10,3 +10,9 @@ Desktop application built with __Electron__, __React__ and __MaterialUI__ compon
 
 ## React Dependencies/Modules
 * react-router-dom
+* electron
+
+## To Start Electron App
+To start the electron app, cd into myapp and run the following commands
+* npm start
+* npm run electron
