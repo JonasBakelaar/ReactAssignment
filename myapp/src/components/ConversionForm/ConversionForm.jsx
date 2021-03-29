@@ -1,5 +1,6 @@
 import React from "react";
 import "./ConversionForm.css";
+import { handleConversion } from "./logic";
 
 import clsx from 'clsx';
 import Box from '@material-ui/core/Box';
@@ -34,19 +35,8 @@ const ConversionForm = ({ mode }) => {
     meters: ''
   });
 
-  const handleConversion = (target) => {
-    if(target.id === "meters") {
-      // Convert current feet value to meters value specified, set both values
-      return target.value * 3.37;
-    } else {
-      // Convert current feet value to meters value specified, set both values
-      return target.value / 3.37;
-    }
-  }
-
   const handleChange = (prop) => (event) => {
-    let conversionValue = handleConversion(event.target)
-    console.log(prop);
+    let conversionValue = handleConversion(event.target);
     if(prop === "feet") {
       setValues({ ...values, [prop]: event.target.value, meters: conversionValue});
     } else {
